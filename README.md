@@ -77,8 +77,7 @@ Functions
 ###Infix Operator
 You can create some operators to avoid lines way too big and keep it clearer
 
-```siwft
-
+```swift
 //syntax to declare a infix operator
 infix operator ^ { }
 

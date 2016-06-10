@@ -70,6 +70,13 @@ extension String {
         }
     }
 }
+
+print(" Test   ".trim()) //"Test\n"
+
+//Using Regular Expression
+let string = "This is my    test".split("[ ]+") //["This", "is", "my", "test"]
+
+let myString = "Just a test".split(" ") //["Just", "a", "test"]
 ```
 
 Functions
@@ -98,12 +105,4 @@ func ^ (radix: Float, power: Float) -> Float {
 let i = Float(2) ^ Float(3)
 print("2³ = \(i)") // Prints 2³ = 8  
 print("2³ = \(2 ^ 3)") // Prints 2³ = 8  
-
-print(" Test   ".trim()) //"Test\n"
-
-//Using Regular Expression
-let string = "This is my    test".split("[ ]+") //["This", "is", "my", "test"]
-
-let myString = "Just a test".split(" ") //["Just", "a", "test"]
-
 ```
